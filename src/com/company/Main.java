@@ -11,22 +11,34 @@ public class Main {
         Cao.adicionar("zeca");
 
 
-        System.out.println(Cao.primeiro.nome);
+        for(int i = 0; i < Cao.tamanho; i++){
+            System.out.println(Cao.buscar(i).nome);
+        }
+        System.out.println("TAMANHO DA LISTA :"+Cao.tamanho);
+
+        System.out.println("***************************");
+
+        /*System.out.println(Cao.primeiro.nome);
         System.out.println(Cao.ultimo.nome);
         System.out.println(Cao.tamanho);
-        System.out.println(Cao.buscar(0).nome);
+        System.out.println(Cao.buscar(0).nome);*/
 
-        Cao.remover("zeca");
-        System.out.println(Cao.tamanho);
+        Cao.remover("IZZI");
+
+        System.out.println("APÓS REMOVER :");
+
+        /*for(int i = 0; i < Cao.tamanho; i++){
+            System.out.println(Cao.buscar(i).nome);
+        }*/
+
+        /*System.out.println(Cao.tamanho);*/
+        /*Cao.adicionar("rock");*/
+
+
         for(int i = 0; i < Cao.tamanho; i++){
             System.out.println(Cao.buscar(i).nome);
         }
-        Cao.adicionar("rock");
-        System.out.println(Cao.tamanho);
-        for(int i = 0; i < Cao.tamanho; i++){
-            System.out.println(Cao.buscar(i).nome);
-        }
-
+        System.out.println("TAMANHO DA LISTA :"+Cao.tamanho);
 
 
 
