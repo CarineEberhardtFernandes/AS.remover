@@ -26,10 +26,8 @@ public class ListaEncadeada {
                 }else if ( atual==ultimo){
                     this.ultimo=anterior;
                     anterior.proximo=null;
-
                 }else {
                     anterior.proximo =(atual.proximo) ;
-                    atual=null;
                 }
                 this.tamanho--;
                 break;
